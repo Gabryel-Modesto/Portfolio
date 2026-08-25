@@ -1,60 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio - Gabryel Modesto</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Meu portfólio</h1>
-        <nav> 
-            <a href="#">Inicio</a>
-            <a href="#">Sobre mim</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
-        </nav>
+      <h1>Gabryel Modesto</h1>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#aboutme">Sobre mim</a>
+        <a href="#technologies">Tecnologias</a>
+        <a href="#projects">Projetos</a>
+        <a href="#championships">Conquistas</a>
+        <a href="#contact">Contato</a>
+      </nav>
     </header>
-    
+
     <main>
-        <section class="aboutMe">
-            <h2>Sobre mim</h2>
-            <p>Meu nome é Gabryel Modesto, tenho 22 anos de idade. Sou de Vitória - ES. Formado no Técnico de Desenvolvimento de Sistemas pelo Senai. 
-                Cursando Análise e Desenvolvimento de Sistemas pela FAESA
-            </p>
-            <img src="Foto teste" alt="Gabryel Modesto">
-        </section>
+      <section id="aboutme" class="aboutMe">
+        <h2>Sobre mim</h2>
+        <p>
+          Meu nome é Gabryel Modesto, tenho 22 anos de idade. Sou de Vitória -
+          ES. Formado no Técnico de Desenvolvimento de Sistemas pelo Senai.
+          Cursando Análise e Desenvolvimento de Sistemas pela FAESA.
+        </p>
+        <img src="./img/hack27/GabryelModesto.jpeg" alt="Gabryel Modesto" />
+      </section>
 
-        <section class="myProjects">
-            <h2>Meus Projetos</h2>
+      <section id="technologies" class="technologies">
+        <h2>Tecnologias</h2>
 
-            <div id="project1">
-                <h3>Projeto 1</h3>
-                <p>Descrição do Projeto</p>
-            </div>
+        <div class="technology">
+          <img src="./img/iconsTecnologias/logos--html-5.png" alt="Html5" />
+          <span>HTML5</span>
+        </div>
 
-            <div id="project2">
-                <h3>Projeto 2</h3>
-                 <p>Descrição do Projeto</p>
-            </div>
+        <div class="technology">
+          <img src="./img/iconsTecnologias/thesvg-color--css.png" alt="Css" />
+          <span>CSS</span>
+        </div>
 
-            <div id="project3">
-                <h3>Projeto 3</h3>
-                 <p>Descrição do Projeto</p>
-            </div>
-        </section>
+        <div class="technology">
+          <img src="./img/iconsTecnologias/logos--javascript.png" alt="JavaScript" />
+          <span>JavaScript</span>
+        </div>
 
-        <section class="contact">
-            <h2>Contato</h2>
-            <p>Email: gabryel@email.com
-                Celular: (27) 99999-9999
-            </p>
-        </section>
+        <div class="technology">
+          <img src="./img/iconsTecnologias/devicon--react.png" alt="React" />
+          <span>React</span>
+        </div>
 
+        <div class="technology">
+          <img src="./img/iconsTecnologias/selfhst--node-js.png" alt="Node" />
+          <span>Node.Js</span>
+        </div>
+
+        <div class="technology">
+          <img src="./img/iconsTecnologias/devicon--python.png" alt="Python" />
+          <span>Python</span>
+        </div>
+
+        <div class="technology">
+          <img src="./img/iconsTecnologias/devicon--java.png" alt="Java" />
+          <span>Java</span>
+        </div>
+
+        <div class="technology">
+          <img src="./img/iconsTecnologias/devicon--oracle.png" alt="Oracle" />
+          <span>Oracle</span>
+        </div>
+
+        <div class="technology">
+          <img src="./img/iconsTecnologias/logos--mysql.png" alt="Mysql" />
+          <span>MySql</span>
+        </div>
+
+        <div class="technology">
+          <img src="./img/iconsTecnologias/devicon--postgresql.png" alt="PostgreSql" />
+          <span>PostgreSql</span>
+        </div>
+
+        <div class="technology">
+          <img src="./img/iconsTecnologias/devicon--docker.png" alt="Docker" />
+          <span>Docker</span>
+        </div>
+      </section>
+
+      <section id="projects" class="myProjects">
+        <h2>Meus Projetos</h2>
+
+        <div id="project1">
+          <h3>EasyRefund</h3>
+          <p>
+            O EasyRefund é uma aplicação web desenvolvida para centralizar e
+            automatizar a gestão de pedidos de reembolso da Fortes Engenharia. O
+            sistema foi criado durante o Hack-27 a partir de um desafio real da
+            empresa, substituindo processos manuais e fragmentados por um fluxo
+            digital de submissão, análise e acompanhamento das solicitações. A
+            plataforma permite que funcionários enviem pedidos com comprovantes,
+            acompanhem o status das solicitações e que usuários administrativos
+            analisem, aprovem ou recusem os reembolsos. O sistema também oferece
+            histórico e rastreabilidade dos processos. Tecnologias usadas:
+            HTML,CSS, REACT, NODE, BYCRPTY, JWT e MYSQL.
+          </p>
+        </div>
+
+        <div id="project2">
+          <h3>Organfy</h3>
+          <p>
+            O Organfy surgiu a partir da necessidade de melhorar meu próprio
+            controle financeiro. A aplicação permite acompanhar despesas,
+            cadastrar metas, registrar depósitos e visualizar de forma
+            organizada para onde o dinheiro está sendo destinado. Tecnologias
+            usadas: HTML, CSS, REACT, NODE, BYCRPT, JWT e POSTGRESQL
+          </p>
+        </div>
+      </section>
+
+      <section id="championships" class="championships">
+        <h2>Competições e Conquistas</h2>
+
+        <article id="hack27" class="championship">
+          <h3>Hack-27</h3>
+
+          <p>
+            Participei da segunda edição do Hack-27 enquanto cursava o Técnico
+            em Desenvolvimento de Sistemas pelo SENAI. O evento reuniu
+            instituições de ensino superior e estudantes para desenvolver
+            soluções para problemas reais apresentados por empresas.
+          </p>
+
+          <p>
+            Na edição em que participei, foram 3 desafios, 12 equipes e 96
+            estudantes. Minha equipe desenvolveu o EasyRefund como solução para
+            um dos desafios propostos.
+          </p>
+
+          <h4>Resultados</h4>
+
+          <ul>
+            <li>1º lugar no desafio em que participamos</li>
+            <li>Prêmio de Ideia Mais Inovadora da edição</li>
+          </ul>
+
+          <h4>Fotos do Evento</h4>
+
+          <div class="championship-gallery">
+            <img
+              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09 (1).jpeg"
+              alt="Equipe durante o Hack-27"
+            />
+            <img
+              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09 (2).jpeg"
+              alt="Equipe participante do Hack-27"
+            />
+            <img
+              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09.jpeg"
+              alt="Participantes durante o Hack-27"
+            />
+            <img
+              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.10.jpeg"
+              alt="Evento Hack-27"
+            />
+            <img
+              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.11.jpeg"
+              alt="Participantes do Hack-27"
+            />
+          </div>
+        </article>
+      </section>
+
+      <section id="social" class="social">
+        <h2>Redes Sociais</h2>
+        <div class="social-container">
+          <a
+            href="https://www.linkedin.com/in/gabryel-modesto/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-card"
+          >
+            <img src="./img/iconsSociais/devicon--linkedin.png" alt="LinkedIn" />
+            <h3>LinkedIn</h3>
+            <p>Minha trajetória profissional</p>
+          </a>
+
+          <a
+            href="https://github.com/Gabryel-Modesto"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-card"
+          >
+            <img src="./img/iconsSociais/akar-icons--github-fill.png" alt="GitHub" />
+            <h3>GitHub</h3>
+            <p>Meus projetos e códigos</p>
+          </a>
+
+          <a
+            href="https://www.instagram.com/gabryel_modesto/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-card"
+          >
+            <img src="./img/iconsSociais/selfhst--instagram.png" alt="Instagram" />
+            <h3>Instagram</h3>
+            <p>Um pouco mais sobre mim</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div>
+          <strong>Email</strong>
+          <p>gabryelpsn@gmail.com</p>
+        </div>
+
+        <div>
+          <strong>Celular</strong>
+          <p>(27) 99926-4244</p>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>@2026 -Gabryel Modesto</p>
+      <p>&copy; 2026 Gabryel Modesto. Todos os direitos reservados.</p>
     </footer>
-</body>
+  </body>
 </html>
