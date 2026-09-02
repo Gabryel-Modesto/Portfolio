@@ -43,7 +43,10 @@
         </div>
 
         <div class="technology">
-          <img src="./img/iconsTecnologias/logos--javascript.png" alt="JavaScript" />
+          <img
+            src="./img/iconsTecnologias/logos--javascript.png"
+            alt="JavaScript"
+          />
           <span>JavaScript</span>
         </div>
 
@@ -78,20 +81,18 @@
         </div>
 
         <div class="technology">
-          <img src="./img/iconsTecnologias/devicon--postgresql.png" alt="PostgreSql" />
+          <img
+            src="./img/iconsTecnologias/devicon--postgresql.png"
+            alt="PostgreSql"
+          />
           <span>PostgreSql</span>
-        </div>
-
-        <div class="technology">
-          <img src="./img/iconsTecnologias/devicon--docker.png" alt="Docker" />
-          <span>Docker</span>
         </div>
       </section>
 
       <section id="projects" class="myProjects">
         <h2>Meus Projetos</h2>
 
-        <div id="project1">
+        <article id="project1">
           <h3>EasyRefund</h3>
           <p>
             O EasyRefund é uma aplicação web desenvolvida para centralizar e
@@ -105,9 +106,9 @@
             histórico e rastreabilidade dos processos. Tecnologias usadas:
             HTML,CSS, REACT, NODE, BYCRPTY, JWT e MYSQL.
           </p>
-        </div>
+        </article>
 
-        <div id="project2">
+        <article id="project2">
           <h3>Organfy</h3>
           <p>
             O Organfy surgiu a partir da necessidade de melhorar meu próprio
@@ -116,7 +117,31 @@
             organizada para onde o dinheiro está sendo destinado. Tecnologias
             usadas: HTML, CSS, REACT, NODE, BYCRPT, JWT e POSTGRESQL
           </p>
-        </div>
+        </article>
+
+        <article id="project3">
+          <h3>DataMerge</h3>
+          <p>
+            O DataMerge surgiu a partir de uma necessidade que identifiquei no
+            ambiente de trabalho: tornar mais rápido e simples o processo de
+            cruzamento de dados entre diferentes planilhas. A aplicação permite
+            que o usuário envie duas tabelas nos formatos CSV, XLS ou XLSX e
+            realize a junção das informações a partir da coluna CODPROD. O
+            projeto foi desenvolvido como uma alternativa mais simples ao uso de
+            fórmulas como PROCV e PROCX, facilitando o processo para usuários
+            que não possuem conhecimento avançado em Excel. Dessa forma, o
+            DataMerge automatiza uma tarefa que, dependendo da quantidade e
+            complexidade dos dados, poderia consumir horas ou até dias de
+            trabalho manual.
+          </p>
+          <a
+            href="https://datamerge-4itn.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver DataMerge
+          </a>
+        </article>
       </section>
 
       <section id="championships" class="championships">
@@ -148,26 +173,53 @@
           <h4>Fotos do Evento</h4>
 
           <div class="championship-gallery">
-            <img
-              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09 (1).jpeg"
-              alt="Equipe durante o Hack-27"
-            />
-            <img
-              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09 (2).jpeg"
-              alt="Equipe participante do Hack-27"
-            />
-            <img
-              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09.jpeg"
-              alt="Participantes durante o Hack-27"
-            />
-            <img
-              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.10.jpeg"
-              alt="Evento Hack-27"
-            />
-            <img
-              src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.11.jpeg"
-              alt="Participantes do Hack-27"
-            />
+            <button class="carousel-button prev" aria-label="Foto Anterior">
+              &#10094;
+            </button>
+
+            <div class="carousel-track">
+              <figure>
+                <img
+                  src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09 (1).jpeg"
+                  alt="Equipe durante o Hack-27"
+                />
+                <figcaption>Equipe durante o Hack-27</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09 (2).jpeg"
+                  alt="Equipe participante do Hack-27"
+                />
+                <figcaption>Equipe participante do Hack-27</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.09.jpeg"
+                  alt="As premiações do Hack-27"
+                />
+                <figcaption>As premiações do Hack-27</figcaption>
+              </figure>
+
+              <figure>
+                <img
+                  src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.10.jpeg"
+                  alt="Premiação Fortes Engenharia - Hack-27"
+                />
+                <figcaption>Premiação Fortes Engenharia - Hack-27</figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="./img/hack27/WhatsApp Image 2026-08-25 at 08.56.11.jpeg"
+                  alt="Premiação da ideia mais inovadora - Hack-27"
+                />
+                <figcaption>
+                  Premiação da ideia mais inovadora - Hack-27
+                </figcaption>
+              </figure>
+            </div>
+            <button class="carousel-button next" aria-label="Próxima Foto">
+              &#10095;
+            </button>
           </div>
         </article>
       </section>
@@ -181,7 +233,10 @@
             rel="noopener noreferrer"
             class="social-card"
           >
-            <img src="./img/iconsSociais/devicon--linkedin.png" alt="LinkedIn" />
+            <img
+              src="./img/iconsSociais/devicon--linkedin.png"
+              alt="LinkedIn"
+            />
             <h3>LinkedIn</h3>
             <p>Minha trajetória profissional</p>
           </a>
@@ -192,7 +247,10 @@
             rel="noopener noreferrer"
             class="social-card"
           >
-            <img src="./img/iconsSociais/akar-icons--github-fill.png" alt="GitHub" />
+            <img
+              src="./img/iconsSociais/akar-icons--github-fill.png"
+              alt="GitHub"
+            />
             <h3>GitHub</h3>
             <p>Meus projetos e códigos</p>
           </a>
@@ -203,7 +261,10 @@
             rel="noopener noreferrer"
             class="social-card"
           >
-            <img src="./img/iconsSociais/selfhst--instagram.png" alt="Instagram" />
+            <img
+              src="./img/iconsSociais/selfhst--instagram.png"
+              alt="Instagram"
+            />
             <h3>Instagram</h3>
             <p>Um pouco mais sobre mim</p>
           </a>
@@ -224,7 +285,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2026 Gabryel Modesto. Todos os direitos reservados.</p>
+      <p>&copy; 2026 Gabryel Modesto.</p>
     </footer>
   </body>
 </html>
